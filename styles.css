@@ -20,11 +20,11 @@ h1{
 }
 img{
    border-radius:100%;
-   margin-right:40px;
+   margin-right:20px;
+   float:left;
    padding:5px;
    width:12%;
    height:15%; 
-   margin:0px;
 } 
 
 h2{
