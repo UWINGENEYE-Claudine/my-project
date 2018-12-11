@@ -1,11 +1,16 @@
 body{
-    background-color:#ccffcc;
+    background-repeat:no-repeat;
+    background-image:cover;
+    background-image:url('https://images.pexels.com/photos/490466/pexels-photo-490466.jpeg?cs=srgb&dl=arizona-asphalt-beautiful-490466.jpg&fm=jpg');
 }
 nav{
     padding:5px;
     margin:0px;
+    border-radius:40px;
     text-align:right;
+    background-color:white;
 }
+
 nav > a{
     text-transform:uppercase;
     text-decoration:none;
@@ -19,12 +24,12 @@ h1{
     font-family:monospace;
 }
 img{
-   border-radius:100%;
    margin-right:20px;
    float:left;
    padding:5px;
-   width:12%;
-   height:15%; 
+   border-radius:80%;
+   width:300px;
+   height:400px; 
 } 
 
 h2{
@@ -34,17 +39,42 @@ h2{
 }
 p{
     font-size:20px;
+    font-family:monospace;
 }
 ul>li{
-    font-size:20px;
+    font-size:18px;
+}
+
+table{
+    border:2px solid black;
+    margin-right:15px;
+}
+tr{
+    border:1px solid balck;
+}
+th{
+    border:1px solid black;
+    padding:15px;
+    color:black;
+    font-weight:bold;
+}
+td{
+    border:1px solid black;
+    padding:10px;
 }
 ol>li>a{
     text-decoration:none;
     color:black;
-    font-size:20px;
+    font-size:20p;
+    text-decoration:underline;
+    text-align:center; 
+    font-weight:bold;  
+}
+ol>li>a:hover{
+    color:blueviolet;
 }
 footer{
     text-align:center;
     border-radius: 60px;
-    background-color:#ccff99;
+    background-color:white;
 }
